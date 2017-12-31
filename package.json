@@ -1,0 +1,24 @@
+{
+  "name": "piczip",
+  "version": "1.0.0",
+  "description": "todo list: - piczip -h  - piczip -v - piczip  - piczip 文件名.格式",
+  "main": "index.js",
+  "bin": {
+    "piczip": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "gulp": "^3.9.1",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-imagemin": "^4.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "marked": "^0.3.7",
+    "yargs": "^10.0.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
